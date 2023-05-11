@@ -191,11 +191,9 @@ p{
     color: var(--purple);
 }
 
-.partners .container{
-    display: flex;
+.partners .row{
     flex-direction: column;
     align-items: center;
-    row-gap: 30px;
 }
 
 .partner-text > h4{
