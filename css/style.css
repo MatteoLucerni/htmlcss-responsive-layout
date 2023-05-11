@@ -321,6 +321,28 @@ p{
     color: white;
 }
 
+/* footer */
+
+footer{
+    padding: 35px 0;
+    background-color: var(--darkgray);
+    color: lightgrey;
+}
+
+footer .container > *{
+    text-align: center;
+    line-height: normal;
+    font-size: 0.8rem;
+}
+
+footer p{
+    margin-bottom: 40px;
+}
+
+.extras a{
+    color: var(--purple);
+}
+
 /* utils */
 
 .container{
