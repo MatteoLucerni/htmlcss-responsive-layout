@@ -39,7 +39,7 @@ h3{
 }
 
 h2{
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 
 .card > *{
@@ -218,6 +218,35 @@ p{
     width: 200px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+    /* ? section benefits */
+
+.benefits{
+    background-color: var(--purple)
+}
+
+.benefits h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.benefits .card{
+    background-color: #fff;
+}
+
+.benefits h3, .benefits-card-number{
+    color: var(--purple);
+}
+
+.benefits-card-number{
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.benefits button.btn.btn-big{
+    background-color: var(--purple);
 }
 
 /* utils */
