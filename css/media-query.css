@@ -22,6 +22,14 @@
     .get-demo .card{
         width: calc(100% / 3 - 30px);
     }
+
+    .planning .planning1-img{
+        height: 500px;
+    }
+
+    .planning .planning2-img{
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 769px){
@@ -54,5 +62,22 @@
         position: absolute;
         left: 75%;
         bottom: 0;
+    }
+
+    .planning .row{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .planning-text{
+        width: calc(100% / 2 - 30px);
+    }
+
+    .planning-text p:last-child{
+        margin-bottom: 0px;
+    }
+
+    .planning .row .card{
+        width: calc(100% / 2 - 30px);
     }
 }

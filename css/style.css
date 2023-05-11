@@ -47,7 +47,7 @@ h3{
 }
 
 section{
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .row{
@@ -145,8 +145,21 @@ p{
     background-color: var(--purple);
 }
 
+.planning .card{
+    width: 100%;
+}
+
 .planning-text{
     color: white;
+}
+
+.planning-text > *{
+    margin-bottom: 50px;
+}
+
+.planning .card p{
+    font-style: oblique;
+    font-weight: 500;
 }
 
 .planning .card:last-child{
@@ -156,6 +169,8 @@ p{
 
 .planning .planning1-img{
     height: 300px;
+    text-align: center;
+    margin-bottom: 150px;
 }
 
 .planning .planning2-img{
@@ -185,13 +200,16 @@ p{
 
 .anchor-arrow{
     background-color: var(--purple);
-    color: var(--darkgray);
     border-radius: 50%;
-    padding: 20px 25px;
+    padding: 15px 20px;
 }
 
 .anchor-arrow a{
     font-size: 2rem;
+}
+
+.anchor-arrow a i{
+    color: var(--darkgray);
 }
 
 .margin-bot-50{
