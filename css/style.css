@@ -25,6 +25,14 @@ ul{
     list-style: none;
 }
 
+img{
+    max-height: 100%;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
 /* header */
 
 header{
@@ -34,7 +42,7 @@ header{
     right: 0;
     background-color: var(--blue);
     color: white;
-    padding: 0 20px;
+    z-index: 1;
 }
 
 .navbar{
@@ -59,10 +67,77 @@ nav a{
     color: white;
 }
 
+p{
+    line-height: 30px;
+}
+
+.card > *{
+    margin-bottom: 20px;
+}
+
+.card > *:last-child{
+    margin-bottom: 0px;
+}
+
+section{
+    padding: 40px 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+/* main */
+
+    /* ? section get-demo */
+
+.get-demo-text > *{
+    margin-bottom: 20px;
+}
+
+.get-demo-img{
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.get-demo .card{
+    background-color: var(--azure);
+    padding: 35px;
+    text-align: center;
+}
+
+.get-demo .card:first-child{
+    padding: 35px 35px 0px 35px;
+    text-align: left;
+    position: relative;
+    min-height: 600px;
+}
+
+.get-demo h4, .get-demo i{
+    color: var(--blue);
+}
+
+.get-demo button{
+    background-color: var(--blue);
+}
+
+.get-demo button i{
+    color: white;
+}
+
 /* utils */
 
 .container{
-    max-width: 360px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -71,4 +146,10 @@ nav a{
     border-radius: 25px;
     padding: 5px 10px;
     font-weight: 500;
+}
+
+.btn.btn-big{
+    padding: 7px 40px;
+    color: white;
+    letter-spacing: 3px;
 }
