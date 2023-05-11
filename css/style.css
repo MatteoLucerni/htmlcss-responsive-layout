@@ -38,6 +38,10 @@ h3{
     font-size: 2.2rem;
 }
 
+h2{
+    font-size: 2.8rem;
+}
+
 .card > *{
     margin-bottom: 20px;
 }
@@ -177,6 +181,46 @@ p{
     height: 250px;
 }
 
+    /* ? section partners */
+
+.partners{
+    text-align: center;
+}
+
+.partners h3{
+    color: var(--purple);
+}
+
+.partners .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.partner-text > h4{
+    color: gray;
+    font-weight: 400;
+}
+
+.partner-text > *{
+    margin-bottom: 40px;
+}
+
+.partners .card{
+    border-radius: 40px;
+    background-color: var(--purple);
+    color: white;
+    padding: 40px 15px;
+    max-width: 800px;
+}
+
+.card .partners-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 /* utils */
 

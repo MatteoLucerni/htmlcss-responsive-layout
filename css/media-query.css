@@ -30,6 +30,18 @@
     .planning .planning2-img{
         height: 400px;
     }
+
+    .partners .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partners .card .partners-card-text{
+        max-width: 60%;
+        text-align: left;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (min-width: 769px){
