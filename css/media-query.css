@@ -51,6 +51,19 @@
     .benefits .row .card{
         width: calc(50% - 30px);
     }
+
+    .about .row{
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .about .row .about-info{
+        width: calc(60% - 30px)
+    }
+
+    .about .row .about-card{
+        width: calc(40% - 30px);
+    }
 }
 
 @media screen and (min-width: 769px){

@@ -249,6 +249,39 @@ p{
     background-color: var(--purple);
 }
 
+    /* ? section about */
+
+.about .container > *, .about-info > *{
+    margin-bottom: 50px;
+}
+
+.about-img{
+    display: inline-block;
+    position: relative;
+}
+
+.about-img img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.about-img i{
+    color: var(--purple);
+    position: absolute;
+    top: -15px;
+    right: -25px;
+}
+
+.about-text{
+    color: var(--purple);
+}
+
+.about-text button.btn{
+    color: white;
+    background-color: var(--purple);
+}
+
 /* utils */
 
 .container{
