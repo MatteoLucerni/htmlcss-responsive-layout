@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --blue: #0084fd;
+    --azure: #b5ddff;
+    --purple: #9792e4;
+    --yellow: #fdc15f;
+    --darkgray: #333333;
+}
