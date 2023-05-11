@@ -1,0 +1,29 @@
+/* default: mobile M , 425px */
+
+@media screen and (min-width: 426px){
+    body{
+        background-color: red;
+    }
+
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media screen and (min-width: 769px){
+    body{
+        background-color: green;
+    }
+
+    .container{
+        max-width: 1100px;
+    }
+
+    nav > ul{
+        display: flex;
+    }
+    
+    nav > i.fa-bars{
+        display: none;
+    }
+}

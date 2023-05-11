@@ -16,3 +16,59 @@
     --yellow: #fdc15f;
     --darkgray: #333333;
 }
+
+body{
+    padding-top: 70px;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--blue);
+    color: white;
+    padding: 0 20px;
+}
+
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: none;
+    gap: 30px;
+    align-items: center;
+}
+
+nav > i{
+    font-size: 1.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/* utils */
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.btn{
+    border-color: transparent;
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-weight: 500;
+}
